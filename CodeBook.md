@@ -11,6 +11,7 @@ The output data consists of a text file data table of 180 rows and 68 columns.
 
 The first two variables are:
 subject: This is the ID of the participant, an integer ranging from 1 to 30
+
 activity: This is the type of activity being measured. It's a factor variable with the options(WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING) representing the activities being performed by the participants when being recorded by the smartphone instrumentation.
 
 The remaining 66 variables are listed below. These have been renamed to avoid use of punctuation marks in variable names which forces character escaping in some situations. Details of the renaming procedures are in the README.md file or you can simply view the results in the table below.
